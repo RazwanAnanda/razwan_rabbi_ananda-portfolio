@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>RAZWAN RABBI ANANDA | Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
   body {
     margin: 0;
@@ -104,14 +105,20 @@
     margin-bottom: 1rem;
     color: #ccc;
   }
-  .project-links a {
-    color: #ff6f61;
-    margin-right: 1rem;
-    font-weight: 600;
-    text-decoration: none;
+  .contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
   }
-  .project-links a:hover {
-    text-decoration: underline;
+  .contact-icons a {
+    color: #f0f0f5;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+  }
+  .contact-icons a:hover {
+    color: #ff6f61;
   }
   footer {
     text-align: center;
@@ -146,7 +153,7 @@
 <header>
   <h1>RAZWAN RABBI ANANDA</h1>
   <p>I design & build solutions with engineering precision.</p>
-  <a href="#" class="btn-resume" download>Download Resume</a>
+  <a href="assets/RAZWAN_RABBI_ANANDA_Resume.pdf" class="btn-resume" download>Download Resume</a>
 </header>
 
 <section id="about">
@@ -177,10 +184,6 @@
       <h3>Fuzzy Logic Prediction Model</h3>
       <p>Developed a fuzzy logic-based model to predict mechanical properties of stone-washed denim garments, enhancing predictability in textile quality control.</p>
     </div>
-    <div class="project-card">
-      <h3>KUET Career Event Automation</h3>
-      <p>Worked with a team to streamline registration and feedback systems for national events using automated workflows and mail integration.</p>
-    </div>
   </div>
 </section>
 
@@ -207,10 +210,13 @@
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:razwanananda5@gmail.com" style="color:#ff6f61;">razwanananda5@gmail.com</a></p>
-  <p>Phone: +8801686234800</p>
-  <p>Address: House No: 3-D, Anchor Tower, Saraipara, Chattogram</p>
-  <p><a href="https://www.linkedin.com/in/razwan-rabbi-ananda" style="color:#ff6f61;" target="_blank">LinkedIn Profile</a></p>
+  <div class="contact-icons">
+    <a href="mailto:razwanananda5@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+8801686234800" title="Phone"><i class="fas fa-phone"></i></a>
+    <a href="https://www.linkedin.com/in/razwan-rabbi-ananda" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/razwanananda" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.facebook.com/razwanananda" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+  </div>
 </section>
 
 <footer>
